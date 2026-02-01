@@ -1,0 +1,117 @@
+.pixelify-sans{
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: 10px;
+  font-style: normal;
+}
+
+
+body{
+    animation: scaleText 4s infinite;
+
+    background-color: rgb(0, 0, 0);
+    font-family:  "Pixelify Sans", sans-serif;
+}
+
+
+body img{
+    width: 130px;
+    height: 130px;
+}
+
+
+h2{
+    font-family:  "Pixelify Sans", sans-serif;
+    color: rgb(255, 255, 255);
+    border-color: black;
+    font-size: 60px;
+    text-align: center;
+    text-shadow: 0 0 10px rgb(255, 255, 255), 0 0 20px rgb(255, 255, 255), 0 0 30px rgb(255, 255, 255), 0 0 40px rgb(255, 255, 255);
+    animation: scaleText 4s infinite;
+}
+
+
+@keyframes scaleText {
+    0%, 100% {
+        transform: scale(1); 
+    }
+    50% {
+        transform: scale(1.02);
+    }
+}
+
+.title{
+    position: relative;
+    overflow: hidden;         
+}
+
+.container {
+    display: flex;
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+    font-family: sans-serif;
+    animation: scaleText 4s infinite;
+
+ }
+
+.pfp {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100px;
+    animation: scaleText 4s infinite;
+    animation: spin 3s infinite linear;
+    
+}
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+.about{
+    background-color: rgb(2, 0, 24);
+}
+
+
+h1{
+    text-align: center;
+    font-family:  "Pixelify Sans", sans-serif;
+    color: aliceblue;
+}
+
+p{
+    color: aliceblue;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 3%;
+}
+
+.p1{
+    animation: scaleText 4s infinite;
+
+    color: aliceblue; 
+    padding-left: 10%;
+    padding-bottom: 1%;
+}
+
+
+.jwq{
+    color: rgb(255, 0, 0);
+    animation: scaleText 4s infinite;
+
+}
+
+.qwj{
+    animation: scaleText 4s infinite;
+    color: #40ff00;
+}
+
+.ffr{
+    animation: scaleText 4s infinite;
+    color: blueviolet;
+}
